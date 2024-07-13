@@ -6,18 +6,23 @@ import "./style.css";
 import PropTypes from "prop-types";
 
 const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false }) => {
+  // variable for current date
   const currentDate = new Date();
+  // state for check in date
   const [startDate, setStartDate] = useState(null);
+  // state for check out date
   const [endDate, setEndDate] = useState(null);
+  // state for turning dark mode on and off
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Custom input component with ref forwarding
+  // Custom button to open calander
   const ExampleCustomInput = forwardRef(({ onClick }, ref) => (
     <button className="datePicker" onClick={onClick} ref={ref}>
       SELECT DATES
     </button>
   ));
 
+  // function that handles main logic
   const handleChange = (dates) => {
     const [start, end] = dates;
     setStartDate(start);
@@ -125,6 +130,7 @@ const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false }) => {
   );
 };
 
+// Setting prop types for storybook to work correctly 
 DatePickerComponent.propTypes = {
   minDiff: PropTypes.number,
   disableMinDiff: PropTypes.bool,

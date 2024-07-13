@@ -14,6 +14,7 @@
     background-color: white;
 }
 
+/* Custom Styling for the calander in light and dark mode  */
 .custom_calander {
     background-color: white;
 }
@@ -27,7 +28,6 @@
 .calander_header_darkMode .react-datepicker__current-month{
     color: white;
 }
-
 
 .custom_calander_darkMode .react-datepicker__day-name{
     color: white;
