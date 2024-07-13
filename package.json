@@ -27,7 +27,10 @@
       "react-app",
       "react-app/jest",
       "plugin:storybook/recommended"
-    ]
+    ],
+    "rules": {
+      "no-template-curly-in-string": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -57,7 +60,7 @@
     "storybook": "^8.2.2",
     "webpack": "^5.93.0"
   },
-  "description": "## Overview This component is a simple date picker where the user can switch between light and dark moode.",
+  "description": "Overview This component is a simple date picker where the user can switch between light and dark moode.",
   "main": "src/components/DatePicker/DatePicker.jsx",
   "repository": {
     "type": "git",

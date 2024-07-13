@@ -33,7 +33,7 @@ const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false }) => {
         setEndDate(end);
       } else {
         alert(
-          "Checkout date must be at least ${minDiff} days after check-in date."
+          'Checkout date must be at least ${minDiff} days after check-in date.'
         );
       }
     } else {
