@@ -1,5 +1,10 @@
 # Getting Started with Create React App
-
+<!-- TODO WRITE GOOD READ ME  -->
+<!-- 
+! MENTION HOW YOU SHOULD HAVE USED react-day-picker INSTEAD maybe you could gone a bit byond scope 
+!also mention that you tried to add a close button but was giving you problems how you tried to go byond scope 
+!how to install and view using npm run start and npm run storybook
+ -->
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

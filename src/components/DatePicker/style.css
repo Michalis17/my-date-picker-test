@@ -1,0 +1,57 @@
+/* custome style for DatePicker button that opens the calander */
+.datePicker {
+    border: 2px solid #8671ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 9999px;
+    width: 200px;
+    background-color: #BCB2F6;
+    font-size: small;
+    font-weight: 500;
+}
+
+.datePicker:hover {
+    background-color: white;
+}
+
+.custom_calander {
+    background-color: white;
+}
+.custom_calander_darkMode{
+    background-color: #333;
+}
+.custom_calander_darkMode .react-datepicker__header--custom{
+    background-color: #4f4d4dfa;
+}
+
+.calander_header_darkMode .react-datepicker__current-month{
+    color: white;
+}
+
+
+.custom_calander_darkMode .react-datepicker__day-name{
+    color: white;
+}
+
+.react-datepicker__navigation{
+    background-color:#8671ff ;
+    border-radius: 100%;
+}
+
+/* styles: DAY */
+.custom_calander_darkMode .react-datepicker__day[aria-disabled='false']{
+    color: white;
+}
+
+.custom_calander_darkMode .react-datepicker__day[aria-disabled='true']{
+    color: rgb(95, 90, 90);
+}
+
+/* styles: darkMode checkbox */
+.darkMode_checkbox_label_darkMode{
+    color: white;
+}
+
+
+
+
