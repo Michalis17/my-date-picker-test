@@ -1,5 +1,5 @@
 {
-  "name": "datepicker-component",
+  "name": "datepicker-component-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -56,5 +56,17 @@
     "prop-types": "^15.8.1",
     "storybook": "^8.2.2",
     "webpack": "^5.93.0"
-  }
+  },
+  "description": "## Overview This component is a simple date picker where the user can switch between light and dark moode.",
+  "main": "src/components/DatePicker/DatePicker.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michalis17/my-date-picker-test.git"
+  },
+  "author": "Michalis Michaelides",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Michalis17/my-date-picker-test/issues"
+  },
+  "homepage": "https://github.com/Michalis17/my-date-picker-test#readme"
 }
