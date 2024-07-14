@@ -1,5 +1,5 @@
 {
-  "name": "datepicker-component-test",
+  "name": "@mmbuilds/datepicker-component-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -70,6 +70,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Michalis17/my-date-picker-test/issues"
-  },
-  "homepage": "https://github.com/Michalis17/my-date-picker-test#readme"
+  }
 }
