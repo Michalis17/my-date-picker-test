@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>DatePicker Component</h1>
-      <DatePickerComponent minDiff={30} disableMinDiff={false}  />
+      <DatePickerComponent minDiff={30} disableMinDiff={false} darkMode  />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { addDays } from "date-fns";
 import "./style.css";
 import PropTypes from "prop-types";
 
-const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false }) => {
+const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false, darkMode = false }) => {
   // variable for current date
   const currentDate = new Date();
   // state for check in date
@@ -13,7 +13,7 @@ const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false }) => {
   // state for check out date
   const [endDate, setEndDate] = useState(null);
   // state for turning dark mode on and off
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(darkMode);
 
   // Custom button to open calander
   const ExampleCustomInput = forwardRef(({ onClick }, ref) => (
@@ -134,6 +134,7 @@ const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false }) => {
 DatePickerComponent.propTypes = {
   minDiff: PropTypes.number,
   disableMinDiff: PropTypes.bool,
+  darkMode: PropTypes.bool
 };
 
 export default DatePickerComponent;
