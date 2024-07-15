@@ -5,7 +5,7 @@ export default {
   parameters: {
     docs: {
       description: {
-        component: 'A simple date picker component with light and dark mode.',
+        component:  'A simple date picker component with light and dark mode.',
       },
     },
   },
@@ -26,6 +26,7 @@ export default {
   tags: ['autodocs'],
 };
 
+// Templates for storybook 
 const Template = (args) => <DatePickerComponent {...args} />;
 
 export const Default = Template.bind({});

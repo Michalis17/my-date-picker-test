@@ -4,7 +4,18 @@ import "react-datepicker/dist/react-datepicker.css";
 import { addDays } from "date-fns";
 import "./style.css";
 import PropTypes from "prop-types";
+/**
+ * DatePickerComponent - A simple date picker component with light and dark mode.
+ *
+ * @param {Object} props - The props for the component.
+ * @param {number} [props.minDiff=30] - Minimum difference in days between check-in and check-out dates.
+ * @param {boolean} [props.disableMinDiff=false] - Disables the minimum difference constraint if set to true.
+ * @param {boolean} [props.darkMode=false] - Toggles between light and dark mode.
+ * @returns {JSX.Element} The rendered component.
+ * 
+ */
 
+// Functional Component
 const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false, darkMode = false }) => {
   // variable for current date
   const currentDate = new Date();
@@ -130,7 +141,7 @@ const DatePickerComponent = ({ minDiff = 30, disableMinDiff = false, darkMode = 
   );
 };
 
-// Setting prop types for storybook to work correctly 
+// Setting prop types for storybook to work correctly
 DatePickerComponent.propTypes = {
   minDiff: PropTypes.number,
   disableMinDiff: PropTypes.bool,

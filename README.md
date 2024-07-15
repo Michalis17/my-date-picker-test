@@ -2,6 +2,12 @@
 
 ## Overview
 This component is a simple date picker where the user can switch between light and dark moode.
+This fucntional react component was created using the [React Date Picker](https://www.npmjs.com/package/react-datepicker?activeTab=readme).
+
+This functional date picker component has the following props:
+minDiff: This is the minimum difference between check-in and checkout dates. It accepts a number value in days.
+disableMinDiff: This disables the minimum difference between check-in and checkout dates. It accepts a boolean value. 
+darkMode: This mounts the component in dark or light mode and accepts a boolean value. The user can still switch between the modes. 
 
 ## Storybook testing
 The component has been configured to work with storybook. There is 3 stories for the component.
